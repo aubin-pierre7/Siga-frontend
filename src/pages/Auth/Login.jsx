@@ -26,7 +26,7 @@ const Login = () => {
       
       if (result && result.success) {
         // Rediriger vers le tableau de bord après connexion réussie
-        navigate('/dashboard')
+        navigate('/')
       } else {
         // Afficher le message d'erreur retourné par le serveur
         setError(result?.message || 'Échec de la connexion. Veuillez réessayer.')
