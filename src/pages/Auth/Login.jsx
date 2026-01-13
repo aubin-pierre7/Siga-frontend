@@ -24,14 +24,16 @@ const Login = () => {
       setLoading(true)
       const result = await login(email, password)
       
-      if (result.success) {
-        navigate('/')
+      if (result && result.success) {
+        // Rediriger vers le tableau de bord après connexion réussie
+        navigate('/dashboard')
       } else {
-        setError(result.message || 'Échec de la connexion')
+        // Afficher le message d'erreur retourné par le serveur
+        setError(result?.message || 'Échec de la connexion. Veuillez réessayer.')
       }
     } catch (err) {
-      console.error('Login error:', err)
-      setError('Une erreur est survenue lors de la connexion')
+      console.error('Erreur de connexion:', err)
+      setError(err.message || 'Une erreur est survenue lors de la connexion')
     } finally {
       setLoading(false)
     }
