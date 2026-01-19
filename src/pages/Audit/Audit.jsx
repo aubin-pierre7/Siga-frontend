@@ -365,27 +365,7 @@ const Audit = () => {
             </table>
           </div>
         </div>
-        <div className="card-footer d-flex justify-content-end">
-          <nav>
-            <ul className="pagination mb-0">
-              <li className="page-item disabled">
-                <button className="page-link" disabled>Précédent</button>
-              </li>
-              <li className="page-item active">
-                <button className="page-link">1</button>
-              </li>
-              <li className="page-item">
-                <button className="page-link">2</button>
-              </li>
-              <li className="page-item">
-                <button className="page-link">3</button>
-              </li>
-              <li className="page-item">
-                <button className="page-link">Suivant</button>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        
       </div>
     </div>
   )

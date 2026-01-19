@@ -93,17 +93,6 @@ const Dashboard = () => {
             <p className="stat-desc">+1 nouvel utilisateur</p>
           </div>
         </div>
-
-        <div className="stat-card">
-          <div className="stat-icon bg-amber-100 text-amber-600">
-            <FiActivity size={24} />
-          </div>
-          <div className="stat-info">
-            <h3>Activité</h3>
-            <p className="stat-number">24</p>
-            <p className="stat-desc">actions aujourd'hui</p>
-          </div>
-        </div>
       </div>
 
       {/* Graphique */}
