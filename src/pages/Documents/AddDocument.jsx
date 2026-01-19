@@ -246,9 +246,6 @@ const AddDocument = () => {
                       </div>
                     ) : (
                       <div className="file-upload-placeholder">
-                        <FiUpload size={48} className="mb-3" />
-                        <p className="mb-2">Glissez et déposez votre fichier ici</p>
-                        <p className="text-muted small mb-3">ou</p>
                         <label htmlFor="file-upload" className="btn btn-outline-primary">
                           Sélectionner un fichier
                         </label>
