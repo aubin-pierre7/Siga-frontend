@@ -53,7 +53,7 @@ const MainLayout = () => {
       <aside className={`sidebar ${mobileMenuOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
           <h2>SIGA</h2>
-          <p>Système d'Information de Gestion des Archives</p>
+          <p>Système Intégré de Gestion d’Archives</p>
         </div>
 
         <nav className="sidebar-nav">
