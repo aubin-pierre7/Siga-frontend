@@ -324,7 +324,7 @@ a:hover {
 .form-control {
   display: block;
   width: 100%;
-  padding: 2.4rem 4rem 2.4rem 2.4rem; /* ⬅️ PLUS GRAND */
+  padding: 1.4rem 3rem 1.4rem 1.4rem; /* ⬅️ PLUS GRAND */
   font-size: 1.60rem;               /* ⬅️ TEXTE PLUS GRAND */
   font-weight: 500;
   line-height: 1.5;
