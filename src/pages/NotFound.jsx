@@ -8,7 +8,7 @@ const NotFound = () => {
         <h1 className="display-1 fw-bold text-primary">404</h1>
         <h2 className="mb-4">Page non trouvée</h2>
         <p className="lead text-muted mb-4">
-          Désolé, la page que vous recherchez n'existe pas ou a été déplacée.
+          Désolé, la page que vous recherchez n'a pas encore été codée.
         </p>
         <Link to="/" className="btn btn-primary">
           <FiArrowLeft className="me-2" /> Retour à l'accueil
