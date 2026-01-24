@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
         if (token) {
           // Simuler une vérification de token
           // En production, vous feriez une requête au serveur pour valider le token
-          setUser({ id: 1, name: 'Admin', email: 'admin@example.com', role: 'admin' })
+          setUser({ id: 1, name: 'Admin', email: 'aubinp58@gmail.com', role: 'admin' })
           setIsAuthenticated(true)
         }
       } catch (error) {
@@ -34,7 +34,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       // Simulation d'une requête de connexion
-      if (email === 'admin@example.com' && password === 'password') {
+      if (email === 'aubinp58@gmail.com' && password === 'password') {
         const userData = { id: 1, name: 'Admin', email, role: 'admin' }
         setUser(userData)
         setIsAuthenticated(true)
